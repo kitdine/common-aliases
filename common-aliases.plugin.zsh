@@ -15,3 +15,5 @@ alias ff='find . -type f -name'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+
+alias bpd='brew update && brew upgrade && brew cu -a -f -y --cleanup && mas upgrade'
