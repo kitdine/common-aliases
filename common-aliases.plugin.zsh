@@ -17,3 +17,5 @@ alias cp='cp -i'
 alias mv='mv -i'
 
 alias bpd='brew update && brew upgrade && brew cu -a -f -y --cleanup && mas upgrade'
+
+alias typora='open -a typora'
