@@ -1,6 +1,7 @@
 alias l='ls -laFh'     #size,show type,human readable
 
 alias zshrc='${=EDITOR} ${ZDOTDIR:-$HOME}/.zshrc' # Quick access to the .zshrc file
+alias zsrc='source ${ZDOTDIR:-$HOME}/.zshrc'
 
 alias grep='grep --color'
 alias sgrep='grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS} '
