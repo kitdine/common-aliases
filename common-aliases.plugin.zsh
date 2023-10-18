@@ -21,4 +21,4 @@ alias bpd='brew update && brew upgrade && brew cu -a -f -y --cleanup && mas upgr
 
 alias typora='open -a typora'
 
-alias glog='git log --pretty="format:%C(yellow)%h %Cblue%>(12)%ah %C(green)(%cr)%C(reset) %C(cyan)%<(7)%aN%Cred%d %Creset%s" --graph --decorate'
+alias glog='git log --pretty="format:%C(yellow)%h%Creset %C(blue)%<(16,trunc)%ah%Creset %C(Green)(%<(12,trunc)%cr)%C(reset) %C(cyan)%<(10,trunc)%aN%Cred%d %Creset%s" --graph --decorate'
